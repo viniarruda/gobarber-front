@@ -1,24 +1,38 @@
 {
   "name": "gobarber-front",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/viniarruda/gobarber-front.git",
-  "author": "Vinicius Arruda <viniarruda.souza@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack-dev-server --mode development"
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
-    "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
   },
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
